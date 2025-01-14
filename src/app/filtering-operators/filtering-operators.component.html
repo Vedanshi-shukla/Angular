@@ -1,0 +1,10 @@
+<h2>Filtering Operators</h2>
+<div class="btn-group">
+<button (click)="createFilter()">filter()</button>
+<button (click)="createTake()">take()</button>
+<button (click)="createDebounceTime()">debounceTime()</button>
+</div>
+<h3>Output:</h3>
+<ul class="list-group">
+  <li *ngFor="let output of observableOutput">{{ output }}</li>
+</ul>

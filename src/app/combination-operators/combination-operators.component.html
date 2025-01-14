@@ -1,0 +1,10 @@
+<h2>Combination Operators</h2>
+<div class="btn-group">
+<button (click)="createCombineLatest()">combineLatest()</button>
+<button (click)="createMerge()">merge()</button>
+<button (click)="createForkJoin()">forkJoin()</button>
+</div>
+<h3>Output:</h3>
+<ul class="list-group">
+  <li *ngFor="let output of observableOutput">{{ output }}</li>
+</ul>

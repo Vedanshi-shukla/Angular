@@ -1,0 +1,11 @@
+<h2>Transformation Operators</h2>
+<div class="btn-group">
+<button (click)="createMap()">map()</button>
+<button (click)="createMergeMap()">mergeMap()</button>
+<button (click)="createSwitchMap()">switchMap()</button>
+<button (click)="createConcatMap()">concatMap()</button>
+</div>
+<h3>Output:</h3>
+<ul class="list-group">
+  <li *ngFor="let output of observableOutput">{{ output }}</li>
+</ul>
