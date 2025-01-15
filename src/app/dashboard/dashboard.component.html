@@ -1,0 +1,8 @@
+<h1>Dashboard</h1>
+<p>Welcome to the protected dashboard!</p>
+<button (click)="logout()">Logout</button>
+<a routerLink="/">Go to Home</a>
+<br>
+<button (click)="hasUnsavedChanges = !hasUnsavedChanges">
+    Toggle Unsaved Changes (Current: {{ hasUnsavedChanges ? 'Yes' : 'No' }})
+</button>
